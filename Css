@@ -1,0 +1,78 @@
+y {
+    background-color: #f2f2f2; 
+    font-family: Verdana, sans-serif;
+    margin: 18px
+    padding: 0; 
+}
+
+.container {
+    background-color: #8B4513;
+    padding: 20px;
+    border-radius: 10px; 
+    width: 350px; 
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.modelol {
+    background-color: #8B4513; 
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; 
+}
+
+.modelol h1, .modelol .titulo2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rotulos{
+  
+  
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.entrada {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5deb3; 
+    color: #333; 
+}
+
+textarea.entrada {
+    height: 100px;
+}
+
+.botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #000; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #333;
+}
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18pt;
+}
+
+form {
+    width: 400px;
+    padding: 30px;
+    border: double 22px red;
+}
+
+input[type="text"], textarea {
+    font-size: 18pt;
+    border: 1px solid black;
+}
